@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+
+/* Styling common styles */
+
+button {
+  color: white;
+  border: none;
+
+  border-radius: 2px;
+}
+
+.container h1 {
+  background-color: #3b5999;
+  color: white;
+  padding: 0.3em 0em;
+
+  margin-bottom: 0.3em;
+}
+
+form {
+  margin-bottom: 1.9em;
+}
+
+form input {
+  width: 80%;
+  margin: 10px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+
+  padding: 1em;
+  height: 40px;
+  border: solid rgba(128, 128, 128, 0.212) 1px;
+  box-shadow: 0px 0px 1px 0px rgba(128, 128, 128, 0.473);
+  color: gray;
+}
+
+form #log-in-btn {
+  background-color: #3b5999;
+  width: 80%;
+  height: 40px;
+  font-size: 0.899rem;
+  font-weight: bold;
+}
+
+.new-acc {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.new-acc button {
+  background-color: #548a34;
+  padding: 0.4em;
+  width: 60%;
+  height: 35px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.new-acc a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
